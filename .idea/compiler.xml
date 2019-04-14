@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-web" />
+        <module name="zcoin-stats" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-web" target="1.8" />
+      <module name="zcoin-stats" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
